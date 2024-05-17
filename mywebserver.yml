@@ -5,4 +5,5 @@
   - name: install webserver on redhat nodes
     dnf:
      name: httpd
+     state: absent
 
