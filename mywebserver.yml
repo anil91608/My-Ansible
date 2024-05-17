@@ -7,3 +7,10 @@
      name: httpd
      state: present
 
+  - name: start webserver on redhat nodes
+    service:
+     name: httpd
+     state: started
+     
+
+
