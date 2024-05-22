@@ -17,4 +17,4 @@
 172.31.21.224
 
 [mywebserver:vars]
-mywebpackonrehat=httpd
+mywebpackonredhat=httpd
