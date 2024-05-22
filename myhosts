@@ -16,5 +16,5 @@
 [myredhatserver]
 172.31.21.224
 
-[mywebserver.vars]
+[mywebserver:vars]
 mywebpackonrehat=httpd
