@@ -6,4 +6,8 @@
   - name: install webserver
     dnf:
       name: httpd
-      state: present 
+      state: present
+  - name: copy text file
+    copy:
+      src: mytestfile
+      dest: /home/anil/mytestfile
