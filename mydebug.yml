@@ -12,14 +12,14 @@
 
   - name: install git
     dnf:
-     name: git
-     state: present
-    when: myfirsttaskresult.stderr!==""
+      name: git
+      state: present
+    when: myfirsttaskresult.stderr!=""
 
   - name: install tree
     dnf:
-     name: tree
-     state: present
+      name: tree
+      state: present
     when: myfirsttaskresult.stderr!==""
 
 
