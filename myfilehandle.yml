@@ -7,6 +7,12 @@
     dnf:
       name: httpd
       state: present
+      
+  - name: start webserver
+    service:
+      name: httpd
+      state: present
+
   - name: copy text file
     copy:
       src: mytestfile
