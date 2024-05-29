@@ -7,11 +7,11 @@
     dnf:
       name: httpd
       state: present
-      
+
   - name: start webserver
     service:
       name: httpd
-      state: present
+      state: started
 
   - name: copy text file
     copy:
