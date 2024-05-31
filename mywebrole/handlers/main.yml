@@ -1,2 +1,6 @@
 ---
 # handlers file for mywebrole
+- name: startwebserver
+  dnf:
+    name: httpd
+    state: started
